@@ -1,0 +1,28 @@
+$black: #222222;
+$white: #fff;
+
+.foot-inner {
+  background: $black;
+  padding: 30px 30px 30px 0;
+  // position: relative;
+
+  @media (min-width:768px) {
+    padding: 60px 60px 60px 0;
+  }
+
+  .var-txt {
+    margin-left: 4px;
+  }
+
+  .foot-txt {
+    font-family: din-condensed, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: $white;
+    text-align: right;
+
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+  }
+}
